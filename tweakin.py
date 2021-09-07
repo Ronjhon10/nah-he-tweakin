@@ -6,8 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import emoji
 
-
-while True:
+solid = 1
+while solid == 1:
 
  driver = webdriver.Chrome('/Users/admin/Downloads/chromedriverreal')
  driver.get('https://www.instagram.com/')
@@ -66,5 +66,3 @@ while True:
 
  driver.close()
 
- if input("Repeat the program? (Y/N)").strip().upper() != 'Y':
-        break
