@@ -15,11 +15,11 @@ driver.maximize_window()
 time.sleep(1)
 
 username = driver.find_element_by_name("username")
-username.send_keys("donut_rising") #donut_rising
+username.send_keys("_username_") #donut_rising
 time.sleep(1)
 
 password  = driver.find_element_by_name("password")
-password.send_keys("donut12!") #donut12!
+password.send_keys("_password_")
 
 
 time.sleep(1)
