@@ -3,28 +3,16 @@ Mac Setup
 Clone and download repository.
 Open all three of the bot files in a text editor. 
 Change the username and password sections to your desired username and password belonging to an instagram account that you own.
+Go to https://chromedriver.chromium.org/ and download the correct release for your version of chrome.
+Copy the downloaded exec into the python path of your computer. This is found here /System/Library/Frameworks/Python.
 Open Terminal, type "python [path to file you wish to run]"
+The final line should look something like this
+  python /Users/admin/Projects/tweakin.py 
+Click enter and see if it'll run! If it stops for some reason see the readme and if it just doesnt work go back and make sure you did every step.
+Good luck XD
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Windows Setup
+
+Coming SOON
